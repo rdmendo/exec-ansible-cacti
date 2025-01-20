@@ -9,5 +9,6 @@
       - snmp-mibs-downloader
       - rrdtool
       - cron  
+    cacti_server_install: []
   tasks:
     - include_tasks: tasks/main.yml

@@ -1,4 +1,5 @@
 ---
-- hosts: cacti
+- name: cacti
+  hosts: cacti
   tasks:
-    - ansible-cacti-server
+    - include_tasks: main.yml

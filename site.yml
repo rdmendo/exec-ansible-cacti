@@ -1,8 +1,4 @@
 ---
 - hosts: cacti
   roles:
-    - ansible-cacti-server
-  vars:
-    cacti_server_install_path:
-      src: "{{ cacti_server_checkout_path }}"
-      dest: /var/www/example.com/cacti/public_html/cacti
+    - oefenweb.cacti-server

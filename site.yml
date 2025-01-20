@@ -10,5 +10,8 @@
       - rrdtool
       - cron  
     cacti_server_install: []
+    cacti_server_install_path:
+     src: "{{ cacti_server_checkout_path }}"
+     dest: /var/www/html/cacti
   tasks:
     - include_tasks: tasks/main.yml

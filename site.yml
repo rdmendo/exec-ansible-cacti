@@ -1,5 +1,5 @@
 ---
 - name: cacti
   hosts: cacti
-  tasks:
-    - include_tasks: ansible-cacti-server/tasks/main.yml
+  command: ls -R /path/to/your/repository
+  delegate_to: localhost

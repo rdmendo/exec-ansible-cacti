@@ -4,10 +4,10 @@
   vars:
     cacti_server_config_database_default: cacti
     cacti_server_dependencies:
-  - git
-  - snmp
-  - snmp-mibs-downloader
-  - rrdtool
-  - cron
+      - git
+      - snmp
+      - snmp-mibs-downloader
+      - rrdtool
+      - cron
   tasks:
     - include_tasks: tasks/main.yml

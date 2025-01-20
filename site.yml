@@ -13,5 +13,6 @@
     cacti_server_install_path:
      src: "{{ cacti_server_checkout_path }}"
      dest: /var/www/html/cacti
+    cacti_server_checkout_path: /var/lib/ansible/cacti-server/checkouts/cacti
   tasks:
     - include_tasks: tasks/main.yml

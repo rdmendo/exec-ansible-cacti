@@ -1,5 +1,7 @@
 ---
 - name: cacti
   hosts: cacti
+  vars:
+    cacti_server_config_database_default: cacti
   tasks:
     - include_tasks: tasks/main.yml

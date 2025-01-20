@@ -1,4 +1,4 @@
 ---
 - hosts: cacti
-  roles:
-    - oefenweb.cacti-server
+  tasks:
+    - ansible-cacti-server

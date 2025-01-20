@@ -8,6 +8,6 @@
       - snmp
       - snmp-mibs-downloader
       - rrdtool
-      - cron
+      - cron  
   tasks:
     - include_tasks: tasks/main.yml

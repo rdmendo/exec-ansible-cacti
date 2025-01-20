@@ -1,5 +1,5 @@
 ---
 - name: cacti
   hosts: cacti
-  command: ls -R /path/to/your/repository
-  delegate_to: localhost
+  tasks:
+    - include_tasks: tasks/main.yml

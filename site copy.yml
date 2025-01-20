@@ -1,6 +1,0 @@
----
-- hosts: cacti
-
-
-  roles:
-    - ansible-cacti-server
